@@ -2,8 +2,9 @@ doctype html
 html(lang="en-US")
   head
     //- link(rel="stylesheet", href="index.css")
+    title #{title}
   body
-    h1 #{title}
+    div(id='root')
 
     script(src="./parcel.hot.js")
-    script(src="../src/index.ts")
+    script(src="../src/index.tsx")

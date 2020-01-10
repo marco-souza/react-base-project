@@ -9,8 +9,16 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "scheduler": "^0.18.0"
+  },
   "devDependencies": {
+    "@types/prop-types": "^15.7.3",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
     "parcel-bundler": "^1.12.4",
     "pug": "^2.0.4",
     "typescript": "^3.7.4"
