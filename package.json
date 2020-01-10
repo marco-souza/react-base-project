@@ -6,6 +6,8 @@
   "scripts": {
     "start": "parcel app/assets/index.pug --open",
     "build": "NODE_ENV=production parcel build app/assets/index.pug",
+    "lint-check": "prettier --check 'app/**/*.{js,ts,tsx}'",
+    "lint": "prettier --write 'app/**/*.{js,ts,tsx}'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -17,10 +19,10 @@
     "scheduler": "^0.18.0"
   },
   "devDependencies": {
-    "@types/prop-types": "^15.7.3",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
     "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
     "pug": "^2.0.4",
     "typescript": "^3.7.4"
   },
