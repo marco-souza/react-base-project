@@ -18,3 +18,9 @@ Boilerplate project to start a simple prod-ready React Application
 ```sh
 npm start
 ```
+
+### Production build
+
+```sh
+npm run build
+```
