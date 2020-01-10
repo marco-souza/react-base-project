@@ -22,5 +22,9 @@
     "parcel-bundler": "^1.12.4",
     "pug": "^2.0.4",
     "typescript": "^3.7.4"
+  },
+  "alias": {
+    "src": "./app/src",
+    "assets": "./app/assets"
   }
 }
