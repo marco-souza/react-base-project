@@ -1,8 +1,10 @@
 import * as React from 'react';
+import Test from 'src/components/Test'
+
 
 const App = () => {
   return (
-    <div>That's <b>Filthy Frank</b> motherfucker!</div>
+    <Test />
   )
 }
 export default App
