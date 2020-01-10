@@ -7,10 +7,10 @@
 - [ ] add **core** components
 - [ ] add **jest**
 - [ ] add **storybook**
-- [ ] add **linter** (eslint or prettier)
 
 ## Done
 
+- [x] add **linter** (prettier)
 - [x] add basic dev scripts
 - [x] add parcel **hot reload**
 - [x] add parcel **resolvers**
