@@ -1,8 +1,7 @@
-import * as React from 'react';
-import * as ReactDOM from "react-dom";
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
 
-import App from 'src/App';
+import App from 'src/App'
 
-var mountNode = document.getElementById("root")
+const mountNode = document.getElementById('root')
 ReactDOM.render(<App />, mountNode)
-

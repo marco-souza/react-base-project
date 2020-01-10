@@ -1,10 +1,8 @@
-import * as React from 'react';
+import * as React from 'react'
 import Test from 'src/components/Test'
 
-
 const App = () => {
-  return (
-    <Test />
-  )
+  return <Test />
 }
+
 export default App
