@@ -2,13 +2,12 @@
 
 ## Backlog
 
-- [ ] add **reach-router@v5**
-- [ ] add **core** components
 - [ ] add **jest**
 - [ ] add **storybook**
 
 ## Done
 
+- [x] add **reach-router**
 - [x] add **redux**
 - [x] add **linter** (prettier)
 - [x] add basic dev scripts
