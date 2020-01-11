@@ -2,7 +2,6 @@
 
 ## Backlog
 
-- [ ] add **redux**
 - [ ] add **reach-router@v5**
 - [ ] add **core** components
 - [ ] add **jest**
@@ -10,6 +9,7 @@
 
 ## Done
 
+- [x] add **redux**
 - [x] add **linter** (prettier)
 - [x] add basic dev scripts
 - [x] add parcel **hot reload**
