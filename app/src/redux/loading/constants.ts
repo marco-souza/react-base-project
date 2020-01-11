@@ -20,5 +20,5 @@ export interface DuckType {
 }
 
 export const initialState: DuckType = {
-  isLoading: true,
+  isLoading: false,
 }
