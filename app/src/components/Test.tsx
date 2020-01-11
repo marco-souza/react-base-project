@@ -4,9 +4,9 @@ import useLoading from 'src/redux/loading'
 const Test = () => {
   const { state, actions } = useLoading()
   const { isLoading } = state
-  const { startLoading, stopLoading } = actions
+  const { fetchGithubProfile } = actions
 
-  const toggleLoading = () => (isLoading ? stopLoading() : startLoading())
+  const toggleLoading = () => fetchGithubProfile('marco-souza')
 
   return (
     <>

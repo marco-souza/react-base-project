@@ -10,9 +10,15 @@ export default () => {
   const dispatch = useDispatch()
 
   const actions = {
-    // set actions with dispatch
+    // set sync actions
     startLoading: () => dispatch(startLoading()),
     stopLoading: () => dispatch(stopLoading()),
+    // set async actions
+    fetchGithubProfile: async (username: string) => {
+      dispatch(startLoading())
+      console.log(await fetch(`https://api.github.com/users/${username}`))
+      dispatch(stopLoading())
+    },
   }
 
   return {
