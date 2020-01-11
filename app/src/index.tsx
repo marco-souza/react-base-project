@@ -2,7 +2,7 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 
-import Test from 'src/components/Test'
+import AppRouter from 'src/pages/AppRouter'
 import { generateStore } from 'src/redux'
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <Provider store={store}>
-      <Test />
+      <AppRouter />
     </Provider>
   )
 }
