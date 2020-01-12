@@ -58,8 +58,8 @@
     "typescript": "^3.7.4"
   },
   "alias": {
-    "src": "./app/src",
-    "assets": "./app/assets"
+    "app": "./src/app",
+    "assets": "./src/assets"
   },
   "jest": {
     "verbose": true,
