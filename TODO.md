@@ -2,11 +2,13 @@
 
 ## Backlog
 
-- [ ] add **jest**
 - [ ] add **storybook**
 
 ## Done
 
+- [x] add **jest**
+- [x] add **enzyme**
+- [x] add **styled-components**
 - [x] add **reach-router**
 - [x] add **redux**
 - [x] add **linter** (prettier)
