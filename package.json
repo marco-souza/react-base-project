@@ -8,6 +8,7 @@
     "build": "NODE_ENV=production parcel build app/assets/index.pug",
     "lint-check": "prettier --check 'app/**/*.{js,ts,tsx}'",
     "lint": "prettier --write 'app/**/*.{js,ts,tsx}'",
+    "analyzer": "npm run build && google-chrome dist/report.html",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch",
     "sb": "start-storybook -p 6006",
