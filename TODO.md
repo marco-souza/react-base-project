@@ -2,10 +2,11 @@
 
 ## Backlog
 
-- [ ] add **storybook**
+- [ ] create something useful
 
 ## Done
 
+- [x] add **storybook**
 - [x] add **jest**
 - [x] add **enzyme**
 - [x] add **styled-components**
