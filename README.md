@@ -1,15 +1,17 @@
-# Base React Project
+# React Base Project
 
 Boilerplate project to start a simple prod-ready React Application
 
 ## Stack
 
-- jest
+- parcel
+- typescript
 - react
 - redux
-- babel
-- parcel
-- eslint
+- @reach/router
+- styled-components
+- prettier
+- jest
 
 ## Usage
 
@@ -25,11 +27,7 @@ npm start
 
 ```sh
 npm run lint # lint and format code
-```
-
-#### Check code styles
-
-```sh
+# or
 npm run lint-check # check code lint
 ```
 
@@ -37,4 +35,20 @@ npm run lint-check # check code lint
 
 ```sh
 npm run build
+```
+
+### Tests
+
+```sh
+npm run test
+# or
+npm run test:watch
+```
+
+### Documentation/Storybooks
+
+```sh
+npm run sb # start
+# or
+npm run build-storybook # build
 ```
