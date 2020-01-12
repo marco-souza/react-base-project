@@ -1,12 +1,13 @@
 import * as React from 'react'
 import { PageInterface } from 'src/helpers/page'
-import Test from 'src/components/Test'
+import Profile from 'src/components/Profile'
 
 const PostDetails = (props: PageInterface) => {
   return (
     <>
       <h1>PostDetails {props.id}</h1>
-      <Test />
+
+      <Profile />
     </>
   )
 }

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import useLoading from 'src/redux/loading'
 
-const Test = () => {
+const Profile = () => {
   const { state, actions } = useLoading()
   const { isLoading } = state
   const { fetchGithubProfile } = actions
@@ -16,4 +16,4 @@ const Test = () => {
     </>
   )
 }
-export default Test
+export default Profile
