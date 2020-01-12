@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from '@reach/router'
-import { PageInterface } from 'src/helpers/page'
+import { PageInterface } from 'app/helpers/page'
 
 const PageTemplate = (props: PageInterface) => {
   return (

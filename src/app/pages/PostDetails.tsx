@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { PageInterface } from 'src/helpers/page'
-import Profile from 'src/components/Profile'
+import { PageInterface } from 'app/helpers/page'
+import Profile from 'app/components/Profile'
 
 const PostDetails = (props: PageInterface) => {
   return (

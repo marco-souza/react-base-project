@@ -1,4 +1,4 @@
-import { createAction } from 'src/helpers/redux'
+import { createAction } from 'app/helpers/redux'
 
 // select duck from store
 export const DUCK_NAME = 'loading'

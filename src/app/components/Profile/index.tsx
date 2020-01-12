@@ -1,5 +1,5 @@
 import * as React from 'react'
-import useLoading from 'src/redux/loading'
+import useLoading from 'app/redux/loading'
 
 const Profile = () => {
   const { state, actions } = useLoading()

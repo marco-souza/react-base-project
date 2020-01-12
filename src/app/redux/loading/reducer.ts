@@ -1,4 +1,4 @@
-import { ActionType } from 'src/helpers/redux'
+import { ActionType } from 'app/helpers/redux'
 
 import { STOP_LOADING, START_LOADING, initialState } from './constants'
 
