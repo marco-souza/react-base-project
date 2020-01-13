@@ -16,10 +16,10 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Run tests
-        run: npx yarn test
+        run: yarn test
 
       - name: Run lint
-        run: npx yarn lint
+        run: yarn lint
 
       - name: Run build
-        run: npx yarn build
+        run: yarn build
