@@ -47,6 +47,7 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.3",
+    "husky": "^4.0.7",
     "jest": "^24.9.0",
     "jest-styled-components": "^6.3.4",
     "parcel-bundler": "^1.12.4",
@@ -61,6 +62,12 @@
   "alias": {
     "app": "./src/app",
     "assets": "./src/assets"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run fmt",
+      "pre-push": "npm test"
+    }
   },
   "jest": {
     "verbose": true,
