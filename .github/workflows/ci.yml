@@ -11,11 +11,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+
       - name: Install dependencies
-        run: npm install
+        uses: bahmutov/npm-install@v1
+
       - name: Run tests
-        run: npm run test
+        run: npx yarn test
+
       - name: Run lint
-        run: npm run lint
+        run: npx yarn lint
+
       - name: Run build
-        run: npm run build
+        run: npx yarn build
