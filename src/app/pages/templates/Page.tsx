@@ -9,10 +9,10 @@ const PageTemplate = (props: PageInterface) => {
 
       {/* navbar */}
       <div>
-        <Link to="/">home</Link>
+        <Link to='/'>home</Link>
       </div>
       <div>
-        <Link to="/posts">posts</Link>
+        <Link to='/posts'>posts</Link>
       </div>
 
       {props.children}
