@@ -6,8 +6,8 @@
   "scripts": {
     "start": "parcel src/assets/index.pug --open",
     "build": "NODE_ENV=production parcel build src/assets/index.pug",
-    "lint-check": "prettier --check 'src/**/*.{js,ts,tsx}'",
-    "lint": "prettier --write 'src/**/*.{js,ts,tsx}'",
+    "lint": "prettier-standard --check",
+    "fmt": "prettier-standard --format",
     "analyzer": "npm run build && google-chrome dist/report.html",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch",
@@ -47,11 +47,13 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.3",
+    "husky": "^4.0.7",
     "jest": "^24.9.0",
     "jest-styled-components": "^6.3.4",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "prettier": "^1.19.1",
+    "prettier-standard": "^16.1.0",
     "pug": "^2.0.4",
     "react-docgen-typescript-loader": "^3.6.0",
     "ts-jest": "^24.3.0",
@@ -60,6 +62,12 @@
   "alias": {
     "app": "./src/app",
     "assets": "./src/assets"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run fmt",
+      "pre-push": "npm test"
+    }
   },
   "jest": {
     "verbose": true,

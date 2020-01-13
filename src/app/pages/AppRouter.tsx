@@ -9,10 +9,10 @@ import PageTemplate from './templates/Page'
 const AppRouter = () => {
   return (
     <Router>
-      <PageTemplate path="/">
-        <Home path="/" />
-        <Posts path="/posts">
-          <PostDetails path="/:id" />
+      <PageTemplate path='/'>
+        <Home path='/' />
+        <Posts path='/posts'>
+          <PostDetails path='/:id' />
         </Posts>
       </PageTemplate>
     </Router>

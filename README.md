@@ -1,5 +1,7 @@
 # React Base Project
 
+![Github Actions](https://github.com/marco-souza/react-base-project/workflows/CI/badge.svg)
+
 Boilerplate project to start a simple prod-ready React Application
 
 ## Stack
@@ -23,12 +25,10 @@ npm start
 
 ### Lint
 
-#### Format code
-
 ```sh
-npm run lint # lint and format code
+npm run fmt # lint and format code
 # or
-npm run lint-check # check code lint
+npm run lint # check code lint
 ```
 
 ### Production build
